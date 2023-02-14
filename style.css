@@ -132,3 +132,47 @@ footer p{
     color: #0A3871;
     margin: 2rem 0 0 25rem;
 }
+
+@media screen and (max-width: 820px) {
+    .AreaText {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .lateralImg {
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+    }
+    .lateralImg img {
+        display: none;
+    }
+    #criptografado {
+        height: max-content;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    .AreaText {
+        width: 100%;
+        margin: 5px 0;
+    }
+    .lateralImg {
+        width: 90%;
+        height: auto;
+        margin: 5px 0;
+    }
+    .lateralImg img {
+        display: none;
+    }
+    #crip {
+        width: 100%;
+        margin: 5px;
+    }
+    #descrip {
+        width: 100%;
+        margin: 5px;
+    }
+    #criptografado {
+        height: max-content;
+    }
+}
