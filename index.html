@@ -7,32 +7,38 @@
     <title>Challenge One - Decodificador</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
     <script src="https://kit.fontawesome.com/2494c0c60c.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <section id="logo">
-        <img src="./assets/Vector.png" alt="">
+    <section class="logo">
+      <a href="index.html"><img src="./assets/Vector.png" alt=""></a>
 </section>
 <section class="AreaText">
     <div >
-        <textarea name="textarea" id="" cols="30" rows="10">Digite seu texto</textarea>
+        <textarea name="textarea" id="texto" cols="30" rows="10" placeholder="Digite seu texto"></textarea>
     </div>
     <div>
         <p> 
         <i class="fa-solid fa-circle-info fa-2xs"></i>
         Apenas letras minúsculas e sem acento.</p>
-        <button id="btnCrip">Criptografar</button>
-        <button id="btnDescrip">Descriptografar</button>
+        <button id="crip">Criptografar</button>
+        <button id="descrip">Descriptografar</button>
     </div>
 
 </section>
 <section class="lateralImg">
-    <div>
+    <div id="semTexto">
         <img src="./assets/High quality products 1 1.png" alt="">
     <p> Nenhuma mensagem encontrada</p>
     <p>Digite um texto que você deseja criptografar ou descriptografar.</p>
     </div>
+    <div id="mostrar">
+        <div id="criptografado"></div>
+        <button id="copiar">Copiar</button>
+    </div>
 </section>
+<br class="clearfix">
 <footer>
     <p>
     © Copyright 2023 Company Fabiana Oliveira. All rights reserved by Challenge One.

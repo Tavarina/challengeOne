@@ -12,7 +12,7 @@ body{
     /* font-family: 'Inter', sans-serif; */
 
 }
-#logo{
+.logo{
     margin: 3rem 0 0 5rem;
 }
 .AreaText{
@@ -31,8 +31,20 @@ textarea{
     margin: 15px;
     color: #495057;
 }
+.AreaText textarea {
+    font-size: 2em;
+    font-family: "Inter";
+    width: 100%;
+    height: 500px;
+    border: none;
+    background-color: transparent;
+    resize: none;
+}
+.AreaText textarea::placeholder {
+    color: #0A3871;
+}
 
-#btnCrip{
+#crip{
     border-radius: 1.2em;
     border:none;
     font-size: 0.9em;
@@ -43,12 +55,12 @@ textarea{
     color: #D8DFE8;
 
 }
-#btnCrip:hover{
+#crip:hover{
     background: #D8DFE8;
     color: #0A3871;
 }
 
-#btnDescrip{
+#descrip{
     background:#D8DFE8;
     color:#0A3871;
     border-radius: 1.2em;
@@ -60,9 +72,31 @@ textarea{
     transition: 0.5s all;
     margin: 0 0 0 20px;
 }
-#btnDescrip:hover{
+#descrip:hover{
     background:#0A3871;
     color:#E5E5E5;
+}
+#copiar {
+    width: 80%;
+    padding: 1.5em;
+    background: #ffffff;
+    color: #0A3871;
+    font-size: 0.8em;
+    border: none;
+    border-radius: 1.5em;
+    transition: 0.5s all;
+    cursor: pointer;
+    border: 1px solid #0A3871;
+}
+#criptografado {
+    font-size: 1em;
+    font-family: "Inter";
+    color: #495057;
+    width: 100%;
+    height: 580px;
+    margin-bottom: 10px;
+    text-align: left;
+    overflow-wrap: break-word;
 }
 .lateralImg{
 width: 28%;
@@ -70,9 +104,9 @@ height: 40rem;
 float: right;
 text-align: center;
 background: #FFFFFF;
-margin: 0 15% 0 1%;
+margin: 0 10% 0 1%;
 border-radius: 32px;
-/* padding: 1.5em; */
+padding: 1.5em;
 }
 .lateralImg img{
     /* width: 280px;
